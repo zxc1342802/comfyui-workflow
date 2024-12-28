@@ -1,5 +1,5 @@
 # 描述
-本人实测的工作流分享，工作流所有节点都可以下载，所有工作流都可以在小程序《AI图工厂》下载，部署都问题可以通过小程序联系我。
+本人实测的工作流分享，工作流节点完全开源，所有工作流都可以在小程序《AI图工厂》下载，部署可以通过小程序联系我。
 <br/>
 <div align="center">
     <img src="assets/miniapp/miniapp.jpg" width="400" alt="AI图工厂" />
@@ -10,14 +10,13 @@
 
 - [FLUX1](#-FLUX1)
 
-# FLUX1
+# 1.FLUX1
 
-## FLUX1 简介
 Flux.1 是由 Black Forest Labs 黑森林实验室推出的文生图模型套件(多个版本)，Flux.1具有出色的文字生成能力和语言理解能力。 FLUX.1 在视觉质量、图像细节方面有显著优势，比如文字生成、复杂构图、人手描绘等方面表现良好。其手部细节得到了优化与增强，相比 Stable Diffusion 模型的畸形手指，FLUX.1 模型要正常得多。图像质量也有所增强，拉近了和最强文生图软件 Midjourney 的距离。 Black Forest Labs，一家由Stability AI的前核心成员Robin Rombach 创立的新团队。
 
 Black Forest Labs 官网： https://blackforestlabs.ai/
 
-## FLUX1 文生图基础工作流
+## 1.1 FLUX1 文生图基础工作流
 
 ### FLUX1 文生图基础工作流-官方原始工作流
 目前 Flux.1 官方推出的 3 个版本，Flux.1 Pro 、Flux.1 Dev和Flux.1 Schnell，Flux1 Dev和Flux.1 Schnell是开源版本，官方版本对硬件要求较高，目前已经有诸多开源版本，对硬件要求较低，可以按需选择。
