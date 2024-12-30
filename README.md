@@ -8,7 +8,8 @@
 
 # 目录
 
-- [FLUX1](#-FLUX1)
+- [1.FLUX1](#-1.FLUX1)
+- [2.无损放大8k](#-无损放大8k)
 
 # 1.FLUX1
 
@@ -40,4 +41,20 @@ t5xxl模型下载地址(二选一)：
 vae模型下载地址：<a href="https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors">ae</a>，存放到 ComfyUI/models/vae
 
 #### 工作流预览
-<img src="assets/miniapp/flux1原始工作流.jpg" width="100%" alt="AI图工厂" />
+<img src="assets/miniapp/flux1_guanfang_yuanshi.jpg" width="800px" alt="AI图工厂" />
+
+# 2.无损放大8k
+主要是使用了放大模型，有2倍、4倍和8倍放大模型。
+<br/>
+## 放大模型下载地址：
+<a href="https://huggingface.co/ai-forever/Real-ESRGAN/blob/main/RealESRGAN_x2.pth">点击下载2倍放大模型</a>
+<br/>
+<a href="https://huggingface.co/ai-forever/Real-ESRGAN/blob/main/RealESRGAN_x4.pth">点击下载4倍放大模型</a>
+<br/>
+<a href="https://huggingface.co/ai-forever/Real-ESRGAN/blob/main/RealESRGAN_x4.pth">点击下载8倍放大模型</a>
+<br/>
+将模型放入models/upscale_models文件夹中，然后使用UpscaleModelLoader节点加载。
+## 工作流
+扫码进入小程序下载工作流<br/>
+### 图片8k无损放大工作流预览
+<img src="assets/miniapp/upscale_8k.jpg" width="800px" alt="AI图工厂" />
