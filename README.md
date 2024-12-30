@@ -8,10 +8,10 @@
 
 # 目录
 
-- [1.FLUX1](#-1.FLUX1)
-- [2.无损放大8k](#-无损放大8k)
+- [1.FLUX1](#1.FLUX1)
+- [2.无损放大8k](#2.无损放大8k)
 
-# 1.FLUX1
+# 1.FLUX1 <a id="1.FLUX1"></a>
 
 Flux.1 是由 Black Forest Labs 黑森林实验室推出的文生图模型套件(多个版本)，Flux.1具有出色的文字生成能力和语言理解能力。 FLUX.1 在视觉质量、图像细节方面有显著优势，比如文字生成、复杂构图、人手描绘等方面表现良好。其手部细节得到了优化与增强，相比 Stable Diffusion 模型的畸形手指，FLUX.1 模型要正常得多。图像质量也有所增强，拉近了和最强文生图软件 Midjourney 的距离。 Black Forest Labs，一家由Stability AI的前核心成员Robin Rombach 创立的新团队。
 
@@ -43,7 +43,7 @@ vae模型下载地址：<a href="https://huggingface.co/black-forest-labs/FLUX.1
 #### 工作流预览
 <img src="assets/miniapp/flux1_guanfang_yuanshi.jpg" width="800px" alt="AI图工厂" />
 
-# 2.无损放大8k
+# 2.无损放大8k <a id="2.无损放大8k"></a>
 主要是使用了放大模型，有2倍、4倍和8倍放大模型。
 <br/>
 ## 放大模型下载地址：
