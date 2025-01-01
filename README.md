@@ -22,7 +22,7 @@
 </style>
 
 # 描述
-本人实测的工作流分享，工作流节点完全开源，所有工作流都可以在小程序《AI图工厂》下载，部分工作流小程序可能更新不及时，部署问题可以通过小程序联系我。
+本人实测的工作流分享，工作流节点完全开源，所有工作流都可以在小程序《AI图工厂》下载，因为小程序审核问题部分工作流小程序可能更新不及时，部署问题可以通过小程序联系我。
 <br/>
 <div align="center">
     <img src="assets/miniapp/miniapp.jpg" width="400" alt="AI图工厂" />
@@ -35,14 +35,14 @@
 <br/>
 
 # 工作流
-<ul>
-    <li class="workflow-item">
-        <div class=""><img class="h1200" src="assets/imgs/证件照工作流.jpg"></div>
-        <div class="title">证件照</div>
-    </li>
-    <li style="width: 66.66%;" class="workflow-item">
-        <div class=""><img class="h1200" src="assets/imgs/upscale_8k.jpg"></div>
-        <div class="title"><a href="./workflow/8k无损放大/README.md">8k无损放大</a></div>
-    </li>
-</ul>
+<div>
+    <div style="width:33.333%;float: left;padding: 24px;box-sizing: border-box;">
+        <div style="height: 1200px;"><img style="width:100%;" src="assets/imgs/证件照工作流.jpg"></div>
+        <div style="text-align:center;">证件照</div>
+    </div>
+    <div style="width: 66.666%;float:left;padding: 24px;box-sizing: border-box;">
+        <div style="height: 1200px;"><img style="width:100%;" src="assets/imgs/upscale_8k.jpg"></div>
+        <div style="text-align:center;"><a href="./workflow/8k无损放大/README.md">8k无损放大</a></div>
+    </div>
+</div>
 
