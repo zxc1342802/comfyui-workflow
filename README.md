@@ -35,14 +35,11 @@
 <br/>
 
 # 工作流
-<div>
-    <div style="width:33.333%;float: left;padding: 24px;box-sizing: border-box;">
-        <div style="height: 1200px;"><img style="width:100%;" src="assets/imgs/证件照工作流.jpg"></div>
-        <div style="text-align:center;">证件照</div>
-    </div>
-    <div style="width: 66.666%;float:left;padding: 24px;box-sizing: border-box;">
-        <div style="height: 1200px;"><img style="width:100%;" src="assets/imgs/upscale_8k.jpg"></div>
-        <div style="text-align:center;"><a href="./workflow/8k无损放大/README.md">8k无损放大</a></div>
-    </div>
-</div>
 
+## 证件照
+<img style="width:100%;" src="assets/imgs/证件照工作流.jpg">
+<br/>
+<br/>
+
+## <a href="./workflow/8k无损放大/README.md">8k无损放大</a>
+<img style="width:100%;" src="assets/imgs/upscale_8k.jpg">
