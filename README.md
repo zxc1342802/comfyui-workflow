@@ -1,26 +1,3 @@
-<style>
-    ul,li{
-        overflow: hidden;
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-    ul li{
-        width: 33.333%;
-        padding: 24px;
-        float: left;
-        box-sizing: border-box;
-    }    
-    .workflow-item .title{
-        text-align: center;
-        font-weight: 24px;
-        font-size: 24px;
-    }
-    .h1200{
-        height: 1200;
-    }
-</style>
-
 # 描述
 本人实测的工作流分享，工作流节点完全开源，所有工作流都可以在小程序《AI图工厂》下载，因为小程序审核问题部分工作流小程序可能更新不及时，部署问题可以通过小程序联系我。
 <br/>
