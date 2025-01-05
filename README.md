@@ -16,7 +16,10 @@
 ## 证件照
 <img style="width:100%;" src="assets/imgs/证件照工作流.jpg">
 <br/>
-<br/>
 
 ## <a href="./workflow/8k无损放大/README.md">8k无损放大</a>
 <img style="width:100%;" src="assets/imgs/upscale_8k.jpg">
+
+## flux高清修复
+<img style="width:100%;" src="assets/imgs/flux高清修复.png">
+<br/>
