@@ -13,6 +13,10 @@
 
 # 工作流
 
+## Flux生成相似风格图片
+<img style="width:100%;" src="assets/imgs/flux相似风格.jpg">
+<br/>
+
 ## <a href="./workflow/换装/README.md">换装</a>
 <img style="width:100%;" src="assets/imgs/换装工作流.jpg">
 <br/>
