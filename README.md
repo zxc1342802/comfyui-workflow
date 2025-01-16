@@ -13,6 +13,10 @@
 
 # 工作流
 
+## Flux电商产品换背景
+<img style="width:100%;" src="assets/imgs/flux电商产品换背景.jpg">
+<br/>
+
 ## Flux生成相似风格图片
 <img style="width:100%;" src="assets/imgs/flux相似风格.jpg">
 <br/>
