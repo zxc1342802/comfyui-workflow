@@ -13,7 +13,7 @@
 
 # 工作流
 
-## Flux电商产品换背景(小程序搜索《AI图工厂》下载)
+## Flux 图片转漫画(小程序搜索《AI图工厂》下载)
 <img style="width:100%;" src="assets/imgs/flux图片转漫画.jpg">
 <br/>
 
