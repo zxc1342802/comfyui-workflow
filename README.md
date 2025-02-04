@@ -1,4 +1,5 @@
 # 描述
+没有显卡部署的朋友可以通过我提供的域名打开或创建自己的工作流<a href="https://comfyui.aitgc.cn">https://comfyui.aitgc.cn</a></br>
 comfyui工作流分享，电商产品换背景、换装、AI换脸、老照片修复、AI绘画等千种工作流《AI图工厂》小程序可以下载和体验
 <br/>
 <div align="center">
