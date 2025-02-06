@@ -1,0 +1,256 @@
+{
+  "last_node_id": 43,
+  "last_link_id": 68,
+  "nodes": [
+    {
+      "id": 29,
+      "type": "DisplayText",
+      "pos": {
+        "0": 2080,
+        "1": 680
+      },
+      "size": {
+        "0": 297.01324462890625,
+        "1": 350.10186767578125
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 47,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DisplayText"
+      },
+      "widgets_values": [
+        "",
+        "The cloth is a soft, knitted fabric with a mix of white, gray, and black colors. It has a slightly textured appearance, giving it a cozy and comfortable look. The fabric is neatly folded and draped over the person's shoulders, creating a relaxed and stylish appearance."
+      ]
+    },
+    {
+      "id": 28,
+      "type": "LoadImage",
+      "pos": {
+        "0": 1340,
+        "1": 840
+      },
+      "size": {
+        "0": 312.0177917480469,
+        "1": 338.66644287109375
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            46
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "https://s3.prod.nordy.ai/media/raw/af4f137e-4d47-4da8-8da6-0c836b5321cc.png",
+        "image",
+        "image"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "JanusImageUnderstanding",
+      "pos": {
+        "0": 1690,
+        "1": 680
+      },
+      "size": {
+        "0": 370.3304138183594,
+        "1": 498.93463134765625
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "JANUS_MODEL",
+          "link": 40,
+          "label": "model"
+        },
+        {
+          "name": "processor",
+          "type": "JANUS_PROCESSOR",
+          "link": 41,
+          "label": "processor"
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 46,
+          "label": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            47
+          ],
+          "slot_index": 0,
+          "label": "text"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JanusImageUnderstanding"
+      },
+      "widgets_values": [
+        "Describe me the cloth she is wearing. Write only the information of the cloth. For example, \"The cloth is like~\" Please dont mention who is wearing this since I want to use your answer directly to generate a cloth in clean white background. Please write it really accurate and detail so I can generate almost same cloth. Write it as 3 sentences.",
+        110965879888254,
+        "randomize",
+        0.1,
+        0.95,
+        512
+      ]
+    },
+    {
+      "id": 10,
+      "type": "JanusModelLoader",
+      "pos": {
+        "0": 1340,
+        "1": 680
+      },
+      "size": {
+        "0": 315,
+        "1": 102
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "JANUS_MODEL",
+          "links": [
+            40
+          ],
+          "slot_index": 0,
+          "label": "model"
+        },
+        {
+          "name": "processor",
+          "type": "JANUS_PROCESSOR",
+          "links": [
+            41
+          ],
+          "slot_index": 1,
+          "label": "processor"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JanusModelLoader"
+      },
+      "widgets_values": [
+        "deepseek-ai/Janus-Pro-1B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "Note",
+      "pos": {
+        "0": 1700,
+        "1": 535
+      },
+      "size": [
+        320.8530541698701,
+        82.51909858021463
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Write anything you want to know from input image"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      40,
+      10,
+      0,
+      25,
+      0,
+      "JANUS_MODEL"
+    ],
+    [
+      41,
+      10,
+      1,
+      25,
+      1,
+      "JANUS_PROCESSOR"
+    ],
+    [
+      46,
+      28,
+      0,
+      25,
+      2,
+      "IMAGE"
+    ],
+    [
+      47,
+      25,
+      0,
+      29,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.9090909090909091,
+      "offset": {
+        "0": -530.9864770214332,
+        "1": -228.68565894398427
+      }
+    },
+    "workspace_info": {
+      "id": "fmD__XZpFj36_jkuHASUE"
+    }
+  },
+  "version": 0.4
+}
