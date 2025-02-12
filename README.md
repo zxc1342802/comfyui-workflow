@@ -1,5 +1,5 @@
 # 描述
-#### 我部署的comfyui放到了公网，地址：<a href="https://comfyui.aitgc.cn">https://comfyui.aitgc.cn</a></br>
+#### 体验地址：<a href="https://comfyui.aitgc.cn">https://comfyui.aitgc.cn</a></br>
 
 </br>
 
